@@ -1,0 +1,31 @@
+{
+  "artifact_id": "stable-id",
+  "classification": "PUBLIC_SYNTHETIC",
+  "purpose": "Named use and user",
+  "scope": {
+    "reporting_period": "",
+    "filters": {},
+    "exclusions": []
+  },
+  "sources": [
+    {
+      "system_or_view": "",
+      "definition_version": "",
+      "data_as_of": "",
+      "retrieved_at": "",
+      "query_or_report_id": ""
+    }
+  ],
+  "measures": [],
+  "transformations": [],
+  "quality_exceptions": [],
+  "assumptions": [],
+  "caveats": [],
+  "unresolved_questions": [],
+  "review": {
+    "status": "draft_for_human_review",
+    "reviewer_role": "",
+    "reviewed_at": null
+  }
+}
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frame Real Product"
+  short_description: "Frame a real product wedge and boundary"
+  default_prompt: "Use $frame-real-product to turn this idea into a narrow, testable product brief."

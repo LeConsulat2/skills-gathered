@@ -1,0 +1,11 @@
+{"id":"s1_unique_count","kind":"metric_equals","period":"2026-S1","metric":"unique_application_count","expected":13,"note":"Duplicate IDs must not inflate the headline count."}
+{"id":"s1_raw_rows","kind":"metric_equals","period":"2026-S1","metric":"raw_row_count","expected":14,"note":"The source evidence must still reveal the duplicate row."}
+{"id":"s1_offered_count","kind":"metric_equals","period":"2026-S1","metric":"status:Offered","expected":3,"note":"Status counts use deduplicated application IDs."}
+{"id":"s1_science_count","kind":"metric_equals","period":"2026-S1","metric":"faculty:Science","expected":3,"note":"Faculty count is deterministic."}
+{"id":"s1_duplicate_issue","kind":"quality_issue_present","period":"2026-S1","code":"duplicate_application_id","expected":true,"note":"Bad data becomes an exception, not a hidden cleanup."}
+{"id":"s1_unknown_status","kind":"quality_issue_present","period":"2026-S1","code":"unknown_application_status","expected":true,"note":"Unknown values must not be guessed into known categories."}
+{"id":"s2_invalid_date","kind":"quality_issue_present","period":"2026-S2","code":"invalid_date_sequence","expected":true,"note":"A decision before submission must be visible."}
+{"id":"s2_mixed_freshness","kind":"quality_issue_present","period":"2026-S2","code":"mixed_freshness","expected":true,"note":"An aggregate cannot pretend to have one clean freshness date."}
+{"id":"synthetic_model_boundary","kind":"model_boundary","payload":{"classification":"PUBLIC_SYNTHETIC","synthetic":true},"expected":true,"note":"Declared synthetic aggregate data may enter the learning API examples."}
+{"id":"restricted_model_boundary","kind":"model_boundary","payload":{"classification":"RESTRICTED_ROW_LEVEL","synthetic":false},"expected":false,"note":"Restricted row-level data must fail closed."}
+

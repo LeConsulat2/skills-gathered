@@ -1,0 +1,15 @@
+.env
+.venv/
+.venv-mcp/
+__pycache__/
+*.py[cod]
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.uv-cache/
+.runtime/
+outputs/*
+!outputs/.gitkeep
+*.sqlite
+*.sqlite3

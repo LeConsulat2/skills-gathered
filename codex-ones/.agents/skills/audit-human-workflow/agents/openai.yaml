@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Human Workflow"
+  short_description: "Audit workflow states, interruptions, and recovery"
+  default_prompt: "Use $audit-human-workflow to test this workflow against real user interruptions and recovery."

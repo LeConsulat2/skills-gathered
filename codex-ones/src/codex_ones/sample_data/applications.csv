@@ -1,0 +1,25 @@
+is_synthetic,application_id,reporting_period,faculty,study_level,residency_group,application_status,submitted_at,decision_at,source_system,data_as_of
+true,SYN-S1-001,2026-S1,Science,Undergraduate,Domestic,Offered,2026-01-03,2026-01-15,StudentSystem,2026-04-30
+true,SYN-S1-002,2026-S1,Arts,Undergraduate,International,Submitted,2026-01-04,,CRM,2026-04-30
+true,SYN-S1-003,2026-S1,Engineering,Undergraduate,Domestic,Accepted,2026-01-05,2026-01-22,StudentSystem,2026-04-30
+true,SYN-S1-004,2026-S1,Business,Postgraduate,International,Declined,2026-01-07,2026-01-27,StudentSystem,2026-04-30
+true,SYN-S1-005,2026-S1,Medical and Health Sciences,Postgraduate,Domestic,Withdrawn,2026-01-08,2026-01-20,CRM,2026-04-30
+true,SYN-S1-006,2026-S1,Science,Postgraduate,International,Offered,2026-01-10,2026-01-24,StudentSystem,2026-04-30
+true,SYN-S1-006,2026-S1,Science,Postgraduate,International,Offered,2026-01-10,2026-01-24,StudentSystem,2026-04-30
+true,SYN-S1-007,2026-S1,Arts,Undergraduate,Domestic,Needs review,2026-01-11,,CRM,2026-04-30
+true,SYN-S1-008,2026-S1,Engineering,Postgraduate,International,Submitted,2026-01-12,,CRM,2026-04-30
+true,SYN-S1-009,2026-S1,Business,Undergraduate,Domestic,Accepted,2026-01-14,2026-01-29,StudentSystem,2026-04-30
+true,SYN-S1-010,2026-S1,Science,Undergraduate,International,Declined,2026-01-15,2026-02-02,StudentSystem,2026-04-30
+true,SYN-S1-011,2026-S1,Medical and Health Sciences,Undergraduate,Domestic,Offered,2026-01-16,2026-02-05,StudentSystem,2026-04-30
+true,SYN-S1-012,2026-S1,Arts,Postgraduate,International,Withdrawn,2026-01-18,2026-01-31,CRM,2026-04-30
+true,SYN-S1-013,2026-S1,Business,Postgraduate,Domestic,Submitted,2026-01-19,,CRM,2026-04-30
+true,SYN-S2-101,2026-S2,Science,Undergraduate,Domestic,Submitted,2026-07-01,,CRM,2026-08-01
+true,SYN-S2-102,2026-S2,Arts,Undergraduate,International,Offered,2026-07-02,2026-07-16,StudentSystem,2026-08-01
+true,SYN-S2-103,2026-S2,Engineering,Undergraduate,Domestic,Accepted,2026-07-03,2026-07-19,StudentSystem,2026-08-01
+true,SYN-S2-104,2026-S2,Business,Postgraduate,International,Submitted,2026-07-04,,CRM,2026-08-01
+true,SYN-S2-105,2026-S2,Medical and Health Sciences,Postgraduate,Domestic,Withdrawn,2026-07-05,2026-07-12,CRM,2026-08-01
+true,SYN-S2-106,2026-S2,Science,Postgraduate,International,Offered,2026-07-06,2026-07-21,StudentSystem,2026-08-01
+true,SYN-S2-107,2026-S2,Arts,Undergraduate,Domestic,Pending documents,2026-07-07,,CRM,2026-08-01
+true,SYN-S2-108,2026-S2,Engineering,Postgraduate,International,Accepted,2026-07-08,2026-07-23,StudentSystem,2026-08-01
+true,SYN-S2-109,2026-S2,Business,Undergraduate,Domestic,Declined,2026-07-20,2026-07-10,StudentSystem,2026-08-01
+true,SYN-S2-110,2026-S2,Science,Undergraduate,International,Submitted,2026-07-10,,CRM,2026-07-30

@@ -1,0 +1,22 @@
+{
+  "id": "domain-behaviour-short-name",
+  "layer": "code_invariant | contract | trajectory | output_quality | pilot_outcome",
+  "severity": "critical | high | medium | low",
+  "behaviour": "One falsifiable behaviour this case protects.",
+  "input_ref": "synthetic-fixture-or-governed-reference",
+  "input": {},
+  "expected": {},
+  "forbidden": [],
+  "rubric": [],
+  "reason": "The observed failure, risk, or domain rule that caused this case to exist.",
+  "owner": "named role",
+  "added_on": "YYYY-MM-DD",
+  "contains_sensitive_data": false,
+  "runtime_snapshot": {
+    "model": "",
+    "reasoning_effort": "",
+    "prompt_version": "",
+    "tool_schema_version": ""
+  }
+}
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gate Agent Delivery"
+  short_description: "Gate agents with evidence, approvals, and evals"
+  default_prompt: "Use $gate-agent-delivery to decide whether this agent is safe and ready to pilot."
